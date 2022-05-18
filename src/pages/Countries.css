@@ -1,0 +1,162 @@
+.Countries{
+    height: 60rem;
+}
+
+.f { 
+     
+    position: absolute;
+    display: block;
+    margin-top:0rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+     border-color: rgb(55, 134, 212);
+    border-width: 1px;
+    width: 80%;
+  } 
+  .dashf a{
+    font-size:20px;
+    background: #4085bf;
+    color: #fff;
+    overflow-wrap: break-word;
+    border-radius: 2px;
+    padding-top: 0.3rem;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 1.2rem;
+    width:30%;
+    height: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  .das2 iframe{
+    position: absolute;
+    margin-top: -6rem;
+    left: 1%;
+    right: 1%;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .Countries{
+      height: 25rem;
+  }
+  .f { 
+     
+    position: absolute;
+    display: block;
+    margin-top:0rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+     border-color: rgb(55, 134, 212);
+    border-width: 1px;
+    width: 80%;
+  } 
+  .dashf a{
+    font-size:10px;
+    background: #4085bf;
+    color: #fff;
+    overflow-wrap: break-word;
+    border-radius: 2px;
+    padding-top: 0.3rem;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    width:30%;
+    height: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  .das2 iframe{
+    position: absolute;
+    margin-top: -7rem;
+    height: 250px;
+    left: 1%;
+  }
+  
+}
+@media (min-width:501px) and (max-width: 768px) {
+  .Countries{
+    height: 30rem;
+}
+.f { 
+   
+  position: absolute;
+  display: block;
+  margin-top:0rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+   border-color: rgb(55, 134, 212);
+  border-width: 1px;
+  width: 80%;
+} 
+.dashf a{
+  font-size:10px;
+  background: #4085bf;
+  color: #fff;
+  overflow-wrap: break-word;
+  border-radius: 2px;
+  padding-top: 0.3rem;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 0.9rem;
+  width:30%;
+  height: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.das2 iframe{
+  position: absolute;
+  margin-top: -7rem;
+  height: 350px;
+  left: 1%;
+}
+}
+@media (min-width:769px) and (max-width: 1024px) {
+  .Countries{
+    height: 30rem;
+}
+.f { 
+   
+  position: absolute;
+  display: block;
+  margin-top:0rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+   border-color: rgb(55, 134, 212);
+  border-width: 1px;
+  width: 80%;
+} 
+.dashf a{
+  font-size:10px;
+  background: #4085bf;
+  color: #fff;
+  overflow-wrap: break-word;
+  border-radius: 2px;
+  padding-top: 0.3rem;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 0.9rem;
+  width:30%;
+  height: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.das2 iframe{
+  position: absolute;
+  margin-top: -7rem;
+  height: 350px;
+  left: 1%;
+}
+}

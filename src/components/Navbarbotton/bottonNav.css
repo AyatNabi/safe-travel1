@@ -1,0 +1,85 @@
+.Navbarbotton{
+    height: 200px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+
+    z-index: 99;
+    overflow: auto;
+   flex-direction: row;
+   
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    width: 250px;
+    height: 200px;
+    margin-top: 7rem;
+}
+
+.hr2 { 
+        position: absolute;
+        display: block;
+        margin-top: 3em;
+   
+        margin-left: auto;
+        margin-right: auto;
+         border-color: rgb(249, 252, 255);
+        border-width: 1px;
+        width: 100%;
+      } 
+
+
+
+
+.cla2{
+    position: absolute;
+    list-style: none;
+    justify-content:end;
+    align-items: center;
+   margin-left: 75%;
+   text-decoration: none;
+   color: #F5F5F5 ;
+    margin-top: 8rem;
+    
+}
+.cla2 li a{
+    text-decoration: none;
+    color: #fdfdfd;
+    padding: 0rem;
+
+}
+.cla2 li a :hover{
+    color: #ff9933;
+    text-decoration-line:underline ;
+    text-decoration-color:#fff ;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.8em;
+}
+
+
+.c{
+    position: absolute;
+    margin-top: 2rem;
+    width: 15px;
+    height: 15px;
+    left: 8.8%;
+   
+}
+p10{
+    position: absolute;
+    margin-top: 2rem;
+    left: 10%;
+    font-size: small;
+    color: aliceblue;
+}
+.c1{
+    color: #ffe600f1;
+}
+
